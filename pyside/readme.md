@@ -46,3 +46,16 @@ ref: Qt for Python Tutorials [https://doc.qt.io/qtforpython/tutorials/index.html
 ## Tips
 
 - Qt for Python Signals and Slots [https://wiki.qt.io/Qt_for_Python_Signals_and_Slots](https://wiki.qt.io/Qt_for_Python_Signals_and_Slots)
+
+## Issues
+
+- Add QChartView into PyQt5 Designer [https://stackoverflow.com/a/48363007](https://stackoverflow.com/a/48363007)
+  - in code for import QChartView
+
+    ```py
+    # ......
+    from PySide2.QtCharts import QtCharts
+    # ......
+    self.magChatView = QtCharts.QChartView(Form)
+    # ......
+    ```
